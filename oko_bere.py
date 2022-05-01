@@ -91,6 +91,12 @@ if platform.system() == "Windows":
 elif platform.system() == "Darwin":
     command = "clear"
 
+elif platform.system() == "Linux":
+    command = "clear"
+
+else:
+    command = "clear"
+
 
 # def 1
 def uvodni_menu():
